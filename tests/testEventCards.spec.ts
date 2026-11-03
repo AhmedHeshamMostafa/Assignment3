@@ -80,24 +80,5 @@ expect(new Set(eventsTitles).size).toBe(eventsTitles.length);
 
 for (const title of eventsTitles) {
   expect(title.trim().length).toBeGreaterThan(0);
-}
-
-  
-
-
-
-  
-
-  
-
-
-  
-
-
-
-
-
-
-
- 
+} 
 });
